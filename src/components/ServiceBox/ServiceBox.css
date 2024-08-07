@@ -1,0 +1,32 @@
+.service {
+  width: 339px;
+  height: 332px;
+  background-color: #f1f1f1;
+  color: black;
+  place-self: center;
+  position: relative;
+}
+
+.ellipse {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #e07a64;
+  position: absolute;
+  top: -17px;
+  left: -15px;
+}
+
+@media (min-width: 960px) {
+  .service {
+    width: 198px;
+    height: 194px;
+  }
+
+  .ellipse {
+    width: 22px;
+    height: 22px;
+    top: -11px;
+    left: -9px;
+  }
+}

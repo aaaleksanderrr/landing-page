@@ -16,3 +16,5 @@ const employees = [
     image: "data/ursula.jpg",
   },
 ];
+
+export { offers, employees };

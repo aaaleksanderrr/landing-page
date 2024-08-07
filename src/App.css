@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.padding-small {
+  padding: 34px 14px;
+}
+
+.text-small {
+  font-size: 18px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-normal {
+  font-size: 26px;
+}

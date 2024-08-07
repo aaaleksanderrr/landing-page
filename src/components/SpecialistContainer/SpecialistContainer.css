@@ -1,0 +1,22 @@
+.specialist-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.specialist-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.specialists-section {
+  width: 90%;
+  background-color: white;
+}
+
+.specialist-title {
+  font-size: 36px;
+}
