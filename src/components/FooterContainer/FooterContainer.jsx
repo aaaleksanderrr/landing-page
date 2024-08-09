@@ -2,16 +2,16 @@ import "./FooterContainer.css";
 
 const FooterContainer = () => {
   return (
-    <div class="footer-container">
-      <div class="footer-section section-default-width flex-column text-small">
-        <div class="footer-content">
-          <p class="footer-text">Nazwa firmy - wszelkie prawa zastrzeżone, 2024</p>
-          <div class="footer-icons">
+    <div className="footer-container">
+      <div className="footer-section section-default-width flex-column text-small">
+        <div className="footer-content">
+          <p className="footer-text">Nazwa firmy - wszelkie prawa zastrzeżone, 2024</p>
+          <div className="footer-icons">
             <a href="#">
-              <i class="fa fa-instagram fa-2x footer-icon" aria-hidden="true"></i>{" "}
+              <i className="fa fa-instagram fa-2x footer-icon" aria-hidden="true"></i>{" "}
             </a>
             <a href="#">
-              <i class="fa fa-facebook-square fa-2x footer-icon" aria-hidden="true"></i>
+              <i className="fa fa-facebook-square fa-2x footer-icon" aria-hidden="true"></i>
             </a>
           </div>
         </div>

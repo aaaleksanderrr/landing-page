@@ -4,6 +4,18 @@
   align-items: center;
 }
 
+.specialist-title {
+  font-size: 36px;
+}
+
+.philip {
+  --photo: url(../../data/philip.jpg);
+}
+
+.ursula {
+  --photo: url(../../data/ursula.jpg);
+}
+
 .specialist-photo {
   background: var(--photo) center no-repeat;
   border-radius: 50%;
@@ -20,10 +32,6 @@
   flex-direction: column;
 }
 
-.specialist-box:nth-of-type(even) .specialist-info-box {
-  text-align: right;
-}
-
 .specialist-name {
   margin-bottom: 1em;
   align-self: flex-start;
@@ -34,11 +42,27 @@
 }
 
 @media (min-width: 960px) {
+  .specialist-title {
+    align-self: flex-start;
+  }
+
+  .specialist-box {
+    flex-direction: row;
+    gap: 60px;
+  }
+
   .specialist-name {
     align-self: unset;
   }
 
   .specialist-text {
     text-align: unset;
+  }
+  .specialist-box:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  .specialist-box:nth-of-type(even) .specialist-info-box {
+    text-align: right;
   }
 }
