@@ -1,4 +1,11 @@
-const offers = ["Usługa 1", "Usługa 2", "Usługa 3", "Usługa 4", "Usługa 5", "Usługa 6"];
+const offers = [
+  { id: 1, name: "Usługa 1", new: true },
+  { id: 2, name: "Usługa 2", new: false },
+  { id: 3, name: "Usługa 3", new: false },
+  { id: 4, name: "Usługa 4", new: false },
+  { id: 5, name: "Usługa 5", new: false },
+  { id: 6, name: "Usługa 6", new: false },
+];
 
 const employees = [
   {
