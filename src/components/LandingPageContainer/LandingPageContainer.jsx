@@ -3,7 +3,7 @@ import "./LandingPageContainer.css";
 const LandingPageContainer = () => {
   return (
     <div className="landing-page-container">
-      <div className="landing-page-section section-default-width">
+      <section className="landing-page-section section-default-width">
         <div className="landing-page-box flex-column padding-small">
           <h1 className="landing-page-title text-bold">
             Nasza firma oferuje najwyższej jakości produkty.
@@ -13,7 +13,7 @@ const LandingPageContainer = () => {
             oferta
           </a>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const ServiceBox = () => {
     return (
       <div class="service flex-column text-normal" key={service.id}>
         {service.name}
-        {service.new ? (
+        {service.isNew ? (
           <>
             <span class="text-small"> (nowość) </span> <div class="ellipse"></div>
           </>

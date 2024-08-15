@@ -1,7 +1,7 @@
 .landing-page-container {
   height: calc(100vh - 50px);
   width: 100%;
-  background-image: url(../../data/bg.jpg);
+  background-image: url(../../assets/bg.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;

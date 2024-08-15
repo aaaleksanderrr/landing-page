@@ -9,11 +9,11 @@
 }
 
 .philip {
-  --photo: url(../../data/philip.jpg);
+  --photo: url(../../assets/philip.jpg);
 }
 
 .ursula {
-  --photo: url(../../data/ursula.jpg);
+  --photo: url(../../assets/ursula.jpg);
 }
 
 .specialist-photo {

@@ -4,14 +4,14 @@ import "./SpecialistContainer.css";
 const SpecialistContainer = () => {
   return (
     <div className="specialist-container">
-      <div
+      <section
         className="specialists-section section-default-width flex-column padding-small"
         id="about"
       >
-        <p className="specialist-title text-bold">Nasi specjaliści</p>
+        <h2 className="specialist-title text-bold">Nasi specjaliści</h2>
 
         <SpecialistBox />
-      </div>
+      </section>
     </div>
   );
 };
