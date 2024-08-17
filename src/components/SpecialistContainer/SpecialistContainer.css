@@ -8,6 +8,7 @@
 .specialists-section {
   width: 90%;
   background-color: white;
+  margin: 34px 14px;
 }
 
 .specialist-title {
@@ -17,5 +18,9 @@
 @media (min-width: 960px) {
   .specialist-title {
     align-self: flex-start;
+  }
+
+  .specialists-section {
+    margin: 51px 94px;
   }
 }

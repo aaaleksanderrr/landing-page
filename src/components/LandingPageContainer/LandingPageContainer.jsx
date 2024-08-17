@@ -4,7 +4,7 @@ const LandingPageContainer = () => {
   return (
     <div className="landing-page-container">
       <section className="landing-page-section section-default-width">
-        <div className="landing-page-box flex-column padding-small">
+        <div className="landing-page-box flex-column">
           <h1 className="landing-page-title text-bold">
             Nasza firma oferuje najwyższej jakości produkty.
           </h1>

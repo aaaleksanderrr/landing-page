@@ -21,6 +21,10 @@
   justify-content: center;
 }
 
+.footer-text {
+  text-align: center;
+}
+
 .footer-icons {
   display: flex;
   justify-content: flex-end;
