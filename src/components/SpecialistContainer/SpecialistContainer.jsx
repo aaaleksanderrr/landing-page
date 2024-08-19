@@ -8,7 +8,7 @@ const SpecialistContainer = () => {
         className="specialists-section section-default-width flex-column padding-small"
         id="about"
       >
-        <h2 className="specialist-title text-bold">Nasi specjaliści</h2>
+        <h2 className="specialist-title text-bold margin-left-small">Nasi specjaliści</h2>
 
         <SpecialistBox />
       </section>

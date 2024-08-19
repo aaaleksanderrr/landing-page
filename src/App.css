@@ -27,3 +27,7 @@ body {
 .text-normal {
   font-size: 26px;
 }
+
+.margin-left-small {
+  margin-left: 10px;
+}

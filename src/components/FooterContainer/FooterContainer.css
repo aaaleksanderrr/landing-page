@@ -39,10 +39,14 @@
 }
 
 @media (min-width: 960px) {
+  .footer-container {
+    justify-content: flex-start;
+  }
+
   .footer-section {
     align-items: flex-start;
     height: 71px;
-    padding: 25px 94px;
+    margin: 0 auto;
   }
 
   .footer-content {

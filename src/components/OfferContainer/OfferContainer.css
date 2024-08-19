@@ -14,14 +14,11 @@
 }
 
 .offer-title-box {
-  display: flex;
-  justify-content: center;
   width: 100%;
 }
 
 .offer-title {
   font-size: 26px;
-  margin: 76px 14px 59px 14px;
 }
 
 .services-box {
@@ -34,11 +31,12 @@
 @media (min-width: 960px) {
   .offer-title-box {
     justify-content: left;
+    text-align: left;
+    margin: 59px auto;
   }
 
   .offer-title {
     font-size: 36px;
-    margin: 50px 94px 64px 94px;
   }
 
   .services-box {

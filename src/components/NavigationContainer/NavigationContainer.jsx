@@ -5,7 +5,7 @@ const NavigationContainer = () => {
     <div className="navigation-container">
       <section className="navigation-section section-default-width">
         <div className="navigation-subsection">
-          <span className="nav-name text-small text-bold">nazwa firmy</span>
+          <span className="nav-name text-small text-bold margin-left-small">nazwa firmy</span>
           <div className="navigation-subsection-right">
             <a href="#about" className="desktop-only nav-link text-small">
               o nas

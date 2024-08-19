@@ -26,7 +26,8 @@
 }
 
 .paragraph {
-  margin: 44px 0;
+  margin-top: 44px;
+  margin-bottom: 44px;
 }
 
 .button {
@@ -44,7 +45,7 @@
 
 @media (min-width: 960px) {
   .landing-page-section {
-    margin: 0 94px;
+    margin: 0 auto;
   }
 }
 

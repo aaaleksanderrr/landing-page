@@ -5,7 +5,7 @@ const SpecialistBox = () => {
   const employeesList = employees.map((employee) => {
     return (
       <div className="specialist-box" key={employee.id}>
-        <div className={`${employee.image} specialist-photo`}></div>
+        <div className={`${employee.image} specialist-photo margin-left-small`}></div>
         <div className="specialist-info-box">
           <span className="specialist-name text-small text-bold">
             {employee.name} [ {employee.position} ]
